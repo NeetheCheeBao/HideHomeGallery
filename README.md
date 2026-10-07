@@ -34,7 +34,7 @@
 
 ## ⬇️ 下载使用
 
-前往 [Releases](https://github.com/NeetheCheeBao/HideHomeGallery/releases) 页面下载
+[![Releases](https://img.shields.io/badge/Download%20Releases-7C25FF?style=for-the-badge&logoColor=white")](https://github.com/NeetheCheeBao/HideHomeGallery/releases)
 
 ## 本地编译
 
