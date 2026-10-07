@@ -1,0 +1,39 @@
+#include "resource.h"
+#include <windows.h>
+
+#pragma code_page(65001)
+
+IDI_APP_ICON ICON "app.ico"
+
+1 VERSIONINFO
+FILEVERSION 1,0,0,0
+PRODUCTVERSION 1,0,0,0
+FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+FILEFLAGS VS_FF_DEBUG
+#else
+FILEFLAGS 0x0L
+#endif
+FILEOS VOS_NT_WINDOWS32
+FILETYPE VFT_APP
+FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404B0"
+        BEGIN
+            VALUE "CompanyName", "NeetheCheeBao"
+            VALUE "FileDescription", "主文件夹和图库隐藏工具"
+            VALUE "FileVersion", "1.0.0.0"
+            VALUE "InternalName", "HideHomeGallery.exe"
+            VALUE "OriginalFilename", "HideHomeGallery.exe"
+            VALUE "ProductName", "主文件夹和图库隐藏工具"
+            VALUE "ProductVersion", "1.0.0.0"
+        END
+    END
+
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x0804, 1200
+    END
+END
